@@ -23,8 +23,30 @@
     width: 23%;
   }
 
+  .name {
+    padding-right: 3%;
+  }
+
   .quantity {
-    padding-left: 20px;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+      font-weight: bolder;
+      line-height: 1em;
+      width: 16.77px;
+      text-align: center;
+    }
+
+    .value {
+      margin: 0 5px;
+      width: 22.56px;
+      text-align: center;
+    }
+
+    .min-quantity {
+      width: 16.77px;
+    }
   }
 
   .remove-button {
